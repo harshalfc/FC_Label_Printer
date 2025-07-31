@@ -1,0 +1,42 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-07-31 15:03:44.597699",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "prn_template"
+ ],
+ "fields": [
+  {
+   "fieldname": "prn_template",
+   "fieldtype": "Attach",
+   "label": "PRN Template"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2025-07-31 15:04:15.005227",
+ "modified_by": "Administrator",
+ "module": "Barcode Label Printer",
+ "name": "Barcode Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
