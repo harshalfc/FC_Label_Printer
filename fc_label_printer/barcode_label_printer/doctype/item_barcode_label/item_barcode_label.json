@@ -6,8 +6,8 @@
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "get_barcodes",
   "is_based_batch",
+  "get_barcodes",
   "items_details"
  ],
  "fields": [
@@ -33,8 +33,8 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-11-12 12:03:05.925719",
- "modified_by": "admin@gmail.com",
+ "modified": "2025-11-12 13:52:46.383349",
+ "modified_by": "Administrator",
  "module": "Barcode Label Printer",
  "name": "Item Barcode Label",
  "naming_rule": "Expression",
