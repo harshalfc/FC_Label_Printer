@@ -6,6 +6,7 @@
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
+  "is_based_batch",
   "get_barcodes",
   "items_details"
  ],
@@ -21,12 +22,18 @@
    "label": "Items Details",
    "options": "Item Barcode Table",
    "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "is_based_batch",
+   "fieldtype": "Check",
+   "label": "Is Based Batch"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-07-31 15:16:21.910308",
+ "modified": "2025-11-12 13:52:46.383349",
  "modified_by": "Administrator",
  "module": "Barcode Label Printer",
  "name": "Item Barcode Label",
