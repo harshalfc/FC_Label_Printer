@@ -44,6 +44,7 @@
   {
    "fieldname": "batch_no",
    "fieldtype": "Link",
+   "in_list_view": 1,
    "label": "Batch No",
    "options": "Batch"
   }
@@ -52,8 +53,8 @@
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2025-07-31 16:32:07.455572",
- "modified_by": "Administrator",
+ "modified": "2025-11-12 11:50:24.247478",
+ "modified_by": "admin@gmail.com",
  "module": "Barcode Label Printer",
  "name": "Item Barcode Table",
  "owner": "Administrator",
